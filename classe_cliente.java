@@ -20,5 +20,31 @@ public class Cliente {
     private int E_mail;
     private int Status_cli;
     private Date Data_cad_Cliente;
-    
+
+      public void Efetua_pedido() {
+        // Implementação do método
+    }
+
+    public void Efetua_Pagamento() {
+        // Implementação do método
+    }
+
+    public void Cadastra_cliente() {
+        // Implementação do método
+    }
+
+    public void Exclui_cliente() {
+        // Implementação do método
+    }
+
+    public void Altera_Dados() {
+        // Implementação do método
+    }
+
+    public void Consulta_Dados() {
+        // Implementação do método
+    }
+
+    // Getters e setters para os atributos
 }
+    
