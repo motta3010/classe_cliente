@@ -21,30 +21,60 @@ public class Cliente {
     private int Status_cli;
     private Date Data_cad_Cliente;
 
-      public void Efetua_pedido() {
-        // Implementação do método
+    public Cliente() {
+    }
+
+    // Métodos
+    public void Efetua_pedido() {
+        // Lógica para efetuar pedido
+        System.out.println("Pedido efetuado com sucesso!");
     }
 
     public void Efetua_Pagamento() {
-        // Implementação do método
+        // Lógica para efetuar pagamento
+        System.out.println("Pagamento efetuado com sucesso!");
     }
 
     public void Cadastra_cliente() {
-        // Implementação do método
+        // Lógica para cadastrar cliente
+        System.out.println("Cliente cadastrado com sucesso!");
     }
 
     public void Exclui_cliente() {
-        // Implementação do método
+        // Lógica para excluir cliente
+        System.out.println("Cliente excluído com sucesso!");
     }
 
     public void Altera_Dados() {
-        // Implementação do método
+        // Lógica para alterar dados do cliente
+        System.out.println("Dados do cliente alterados com sucesso!");
     }
 
     public void Consulta_Dados() {
-        // Implementação do método
+        // Lógica para consultar dados do cliente
+        System.out.println("Consultando dados do cliente...");
     }
 
-    // Getters e setters para os atributos
+    // Getters e Setters (omitidos para brevidade, 
+    // adicione-os conforme necessário)
+
+    public static void main(String[] args) {
+        // Criando uma instância da classe Cliente
+        Cliente cliente1 = new Cliente();
+
+        // Utilizando os métodos da classe
+        cliente1.Cadastra_cliente();
+        cliente1.Efetua_pedido();
+        cliente1.Efetua_Pagamento();
+        cliente1.Consulta_Dados();
+        cliente1.Altera_Dados();
+        cliente1.Exclui_cliente(); 
+    }
 }
-    
+
+// Classe enum para o tipo de documento
+enum Tipo_Documento {
+    CPF,
+    RG,
+    // Outros tipos de documento podem ser adicionados aqui
+} 
