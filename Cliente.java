@@ -1,9 +1,9 @@
-package Sistema_cliente;
+import java.util.Date;
 
 public class Cliente {
     private int id_cliente;
     private String Nome_cli;
-    private Tipo_Documento old_Tipo_Documento;
+    //private Tipo_Documento old_Tipo_Documento;
     private int Cod_Docum;
     private int Rg_Cli;
     private String Endereço;
@@ -72,9 +72,3 @@ public class Cliente {
     }
 }
 
-// Classe enum para o tipo de documento
-enum Tipo_Documento {
-    CPF,
-    RG,
-    // Outros tipos de documento podem ser adicionados aqui
-} 
