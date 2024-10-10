@@ -3,7 +3,6 @@ import java.util.Date;
 public class Cliente {
     private int id_cliente;
     private String Nome_cli;
-    //private Tipo_Documento old_Tipo_Documento;
     private int Cod_Docum;
     private int Rg_Cli;
     private String Endereço;
@@ -21,7 +20,12 @@ public class Cliente {
     private int Status_cli;
     private Date Data_cad_Cliente;
 
-    public Cliente() {
+    public String getNome(){
+        return  Nome_cli;
+    }
+
+    public void setNome(String Nome_cli) {
+        this.Nome_cli = Nome_cli;
     }
 
     // Métodos
